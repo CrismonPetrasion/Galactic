@@ -175,6 +175,14 @@ do
     })
 
     Tabs.Key:AddButton({
+        Title = "Copy Key Link",
+        Description = "Copying key link in your clipboard",
+        Callback = function()
+            setclipboard("https://linkvertise.com/1169922/galactic-key-system1?o=sharing")
+        end
+    })
+
+    Tabs.Key:AddButton({
         Title = "Check Key",
         Description = "Cheking key that in Input",
         Callback = function()
