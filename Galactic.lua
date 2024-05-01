@@ -5,7 +5,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
     
 local Window = Fluent:CreateWindow({
-    Title = "Key System | Cosmic Hub",
+    Title = "Key System | Galactic Hub",
     SubTitle = "By cheese",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
@@ -45,7 +45,7 @@ do
         local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
         
         local Window = Fluent:CreateWindow({
-            Title = "Universal | Cosmic Hub",
+            Title = "Universal | Galactic Hub",
             SubTitle = "By cheese",
             TabWidth = 160,
             Size = UDim2.fromOffset(580, 460),
@@ -84,11 +84,12 @@ do
 
         do
             Notify("Script", "Script Logged as Universal", "", 5)
+            task.wait(3)
             Notify("Anti-Cheat", "Note: That is universal script has no anti-cheat in any games", "Expample of: Blox Fruits, Slap Battles, Blade Ball", 5)
 
             Tabs.Main:AddParagraph({
-                Title = "Cosmic Hub is a powerful cheat.",
-                Content = "Note: Cosmic Hub is currently under development and may be unstable."
+                Title = "Galactic Hub is a powerful hub.",
+                Content = "Note: Galactic Hub is currently under development and may be unstable."
             })
 
             -----------------------------------------------------------------------------------------------------
@@ -150,14 +151,14 @@ do
         end
     end
 
-    _G.Key = "Hello"
+    _G.Key = "Galactic_D9F86FAC2F6273816E89FE751E7B8"
     _G.KeyInput = "string"
 
     Notify("Logged in!", "You are logged in as ".. Player.Name .. " ", 5)
     
     Tabs.Main:AddParagraph({
-        Title = "Cosmic Hub is a powerful cheat.",
-        Content = "Note: Cosmic Hub is currently under development and may be unstable."
+        Title = "Galactic Hub is a powerful hub.",
+        Content = "Note: Galactic Hub is currently under development and may be unstable."
     })
 
     -----------------------------------------------------------
